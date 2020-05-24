@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+    <link rel="css" href="/Baddies/style.css"></link>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <style>
+     ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+ } </style>
+    <body style="background-color: rgb(255, 249, 235);">
+  <nav> <ul>
+    <li><a href="home.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="research.html">Research</a></li>
+  </ul>
+  </nav>
+    <p></p>
+<div style= "text-align: center; margin: 10%">
+<h3><b>Where is best state to live after graduation?</b> </h3>
+<h4>Choose your intended industry.</h4>
+<button class="btn btn-outline-primary" onclick="health()">Healthcare</button>
+<button class="btn btn-outline-primary" onclick="teaching()">Teaching</button>
+<button class="btn btn-outline-primary" onclick="tech()">Technology</button>
+<button class="btn btn-outline-primary" onclick="eng()">Engineering/Sciences</button>
+<button class="btn btn-outline-primary" onclick="business()">Big Business</button>
+<!-- <button class="btn btn-outline-primary" onclick="service()">Service Industry</button>
+<button class="btn btn-outline-primary" onclick="manufacturing()">Manufacturing</button>
+<button class="btn btn-outline-primary" onclick="travel()">Travel Industry</button> -->
+<p></p>
+
+<h3 id="result"></h3>
+
+</div>
+<script>
+function health() {
+  var CV = prompt("If you're trying to find a job during the COVID crisis, type 'y'. If not, type 'n' and it will show assuming the economy is back to pre-COVID.", "y or n") ; 
+  var result;
+  if (CV == "n") {
+    result = "<h1> Massachusetts, Minnesota, Pensylvania, Maryland</h1>";
+  } 
+  else if (CV == "y")
+  {
+    result = "<h1>California, New York, New Jersey, Massachusetts</h1>";
+    }
+    else {
+    result = "Invalid entry.";
+  }
+  document.getElementById("result").innerHTML = result;
+}
+function teaching() {
+  var CV = prompt("If you're trying to find a job during the COVID crisis, type 'y'. If not, type 'n' and it will show assuming the economy is back to pre-COVID.", "y or n") ; 
+  var result;
+  if (CV == "n") {
+    result = "<h1>Kansas, Colorado, Nevada, Oregon</h1>";
+  } 
+  else if (CV == "y")
+  {
+    result = "<h1>California, Washington, North Carolina, New Jersey</h1>";
+    }
+    else {
+    result = "Invalid entry.";
+  }
+  document.getElementById("result").innerHTML = result;
+}
+function tech() {
+  var CV = prompt("If you're trying to find a job during the COVID crisis, type 'y'. If not, type 'n' and it will show assuming the economy is back to pre-COVID.", "y or n") ; 
+  var result;
+  if (CV == "n") {
+    result = "<h1>Virginia, Colorado, Minnesota, Washington</h1>";
+  } 
+  else if (CV == "y")
+  {
+    result = "<h1>Washington, Calfornia, New York, Virginia<h1>";
+    }
+    else {
+    result = "Invalid entry.";
+  }
+  document.getElementById("result").innerHTML = result;
+}function eng() {
+  var CV = prompt("If you're trying to find a job during the COVID crisis, type 'y'. If not, type 'n' and it will show assuming the economy is back to pre-COVID.", "y or n") ; 
+  var result;
+  if (CV == "n") {
+    result = "<h1>Colorado, New Mexico, Massachusetts, Michigan<h1>";
+  } 
+  else if (CV == "y")
+  {
+    result = "<h1>California, Virginia, Colorado, Texas</h1>";
+    }
+    else {
+    result = "Invalid entry.";
+  }
+  document.getElementById("result").innerHTML = result;
+
+}function business() {
+  var CV = prompt("If you're trying to find a job during the COVID crisis, type 'y'. If not, type 'n' and it will show assuming the economy is back to pre-COVID.", "y or n") ; 
+  var result;
+  if (CV == "n") {
+    result = "<h1>Illinois, Colorado, Virginia, Michigan</h1>";
+  } 
+  else if (CV == "y")
+  {
+    result = "<h1>Illinois, New York, Texas, New Jersey</h1>";
+    }
+    else {
+    result = "Invalid entry.";
+  }
+  document.getElementById("result").innerHTML = result;
+}function service() {
+  var CV = prompt("If you're trying to find a job during the COVID crisis, type 'y'. If not, type 'n' and it will show assuming the economy is back to pre-COVID.", "y or n") ; 
+  var result;
+  if (CV == "n") {
+    result = "Maine";
+  } 
+  else if (CV == "y")
+  {
+    result = "California";
+    }
+    else {
+    result = "Invalid entry.";
+  }
+  document.getElementById("result").innerHTML = result;
+  
+}function manufacturing() {
+  var CV = prompt("If you're trying to find a job during the COVID crisis, type 'y'. If not, type 'n' and it will show assuming the economy is back to pre-COVID.", "y or n") ; 
+  var result;
+  if (CV == "n") {
+    result = "Maine";
+  } 
+  else if (CV == "y")
+  {
+    result = "California";
+    }
+    else {
+    result = "Invalid entry.";
+  }
+  document.getElementById("result").innerHTML = result;
+}function travel() {
+  var CV = prompt("If you're trying to find a job during the COVID crisis, type 'y'. If not, type 'n' and it will show assuming the economy is back to pre-COVID.", "y or n") ; 
+  var result;
+  if (CV == "n") {
+    result = "Maine";
+  } 
+  else if (CV == "y")
+  {
+    result = "California";
+    }
+    else {
+    result = "Invalid entry.";
+  }
+  document.getElementById("result").innerHTML = result;
+}
+</script>
+
+<div style="margin: 10%">
+<h3>Learn more about the more promising states below:</h3>
+
+<p></p>
+<h4>State: California</h4>
+<p>Unemployment Rate: 15.5% </p>
+<p>Industry Strengths: technology, medical, engineering, and education</p>
+<p></p>
+<h4>State: Colorado</h4>
+<p>Unemployment Rate: 11.3%</p>
+<p>Industry Strengths: technology, engineering, education, and big business</p>
+<p></p>
+<h4>State: Massachusetts</h4>
+<p>Unemployment Rate: 15.1% </p>
+<p>Industry Strengths: medical, and engineering</p>
+<p></p><h4>State: Virginia</h4>
+<p>Unemployment Rate: 10.6% </p>
+<p>Industry Strengths: technology, engineering, and big business</p>
+
+</div>
+</body>
+</html>
