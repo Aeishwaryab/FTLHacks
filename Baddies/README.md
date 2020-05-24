@@ -8,7 +8,7 @@ Download the files for the website, and run by doubleclicking on any of the HTML
 
 ### Website use
 
-When you click on a intended industry, you will be prompted with a yes or no question, in which youll respond "y" or "n" respectively to the question "Do you want to consider COVID crisis with the data?"
+On the Home Page: When you click on a intended industry, you will be prompted with a yes or no question, in which youll respond "y" or "n" respectively to the question "Do you want to consider COVID crisis with the data?"
 
 For example:
 
