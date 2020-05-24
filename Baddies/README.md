@@ -1,6 +1,6 @@
 # Finding a Job as a Graduate in the Era of COVID-19 
 
-By generalizing several industries of interest, we chose states based off real data and organized it in readable ways. 
+By generalizing several industries of interest, we chose states based off real data and organized it in readable ways. We compared unemployment rates in context of the pandemic (and what industries the states profit off of), recovery score (considering quality of healthcare system and population density), conditions of the workforce prior to the economic crisis, and salary/cost of living, as most graduates deal with student loans straight out of college.
 
 ## Getting Started
 
