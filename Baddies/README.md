@@ -15,3 +15,4 @@ For example:
 When Technology is chosen, during COVID economic crisis will tell the individual Washington, CA, NY, and Virginia.
 When Technology is chosen, without COVID being a factor, the suggestion will be Virginia, Colorado, Minnesota, Washington.
  
+The data backing up our conclusion is under the "Research Tab," where we used Python, Google Sheets and APIs to statistically analyse our data. 
